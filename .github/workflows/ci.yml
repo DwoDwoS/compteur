@@ -18,7 +18,7 @@ jobs:
           cache: 'yarn'
       - name: Install dependencies
         run: yarn install --immutable --immutable-cache --check-cache
-      - name: TypeScript check
-        run: yarn ts
       - name: test 
         run: yarn test
+      - name: TypeScript check
+        run: yarn ts
