@@ -46,7 +46,7 @@ export default function CounterButtons({
       </Button>
       <Button
         variant="contained"
-        className={classNames(styles.compteur, styles.btnMois)}
+        className={classNames(styles.compteur, styles.btnMoins)}
         id="btn-moins"
         onClick={onClickMinus}
       >
@@ -54,7 +54,7 @@ export default function CounterButtons({
       </Button>
       <Button
         variant="contained"
-        className={classNames(styles.compteur, styles.btnMois)}
+        className={classNames(styles.compteur, styles.btnMoins)}
         id="btn-minus-by-ten"
         onClick={onClickMinusByTen}
       >

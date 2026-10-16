@@ -26,17 +26,17 @@
   opacity: 0.8;
 }
 
-.btnPlus {
+button.btnPlus {
   background-color: #28a745;
   color: white;
 }
 
-.btnMoins {
+button.btnMoins {
   background-color: #dc3545;
   color: white;
 }
 
-.btnReset {
+button.btnReset {
   background-color: #6c757d;
   color: white;
 }
