@@ -1,3 +1,12 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+}
+
 .compteur {
   font-size: 72px;
   margin: 30px;
@@ -30,6 +39,14 @@
 .btnReset {
   background-color: #6c757d;
   color: white;
+}
+
+.img {
+  max-width: 100%;
+  height: auto;
+  margin: 20px auto 0;
+  align-self: center;
+  display: block;
 }
 
 .footer {
